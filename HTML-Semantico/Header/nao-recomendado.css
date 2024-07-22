@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    background-color: #f8f989;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid ;
+}
+
+.logo{
+    height: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius:  5px;
+}
+
+.navbar ul li a:hover {
+    background-color: #0056b3;
+}
+
+.navbar ul li {
+    list-style: none;
+}

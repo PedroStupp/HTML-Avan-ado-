@@ -1,0 +1,60 @@
+.centraliado {
+    text-align: center;
+}
+
+.titulo-realce {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.marquee-container {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 300px;
+    box-sizing: border-box;
+}
+.marquee {
+    animation: scrolling-text 3s linear infinite;
+    display: inline-block;
+    width: inherit;
+}
+
+@keyframes scrolling-text {
+    0% {
+        text-indent: 100%;
+    }
+    100% {
+        text-indent: -100%;
+    }
+}
+
+.negrito {
+    font: bold;
+}
+
+table, tr, td, th {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+table thead tr {
+    background-color: blue;
+}
+
+th:nth-child(1) {
+    width: 100px;
+}
+
+th:nth-child(2) {
+    width: 200px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightskyblue;
+}
